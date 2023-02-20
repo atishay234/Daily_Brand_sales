@@ -1,0 +1,73 @@
+.heading_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading_div a {
+  color: white;
+  margin-left: 40px;
+  width: 70px;
+  height: 80%;
+  padding: 5px 15px !important;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+.button_add {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button_add button {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #edf2f7;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.button_add button:hover {
+  background-color: #bad7f2;
+  transition: 0.2s all;
+}
+.button_submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.button_submit button {
+  margin: 10px 20px 10px 0px;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.button_submit button:hover {
+  background-color: #b478ec;
+}
+Td {
+  padding: 5px 5px !important ;
+}
+Input {
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+  padding: 10px !important;
+  outline: none;
+}
+input:focus {
+  border-color: blueviolet;
+  transition: 0.2s all;
+}
+
+select {
+  padding: 10px !important;
+  background-color: white;
+  border: 2px solid #dee2e6;
+  border-radius: 10px;
+  outline: none;
+}
+Select:focus {
+  border-color: blueviolet;
+}
